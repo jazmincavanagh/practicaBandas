@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul> 
+            <li><%= bandasPorId.nombre %> </li>
+            <li><%= bandasPorId.integrantes %> </li>
+            <li><a class = "genero" href="/bandas/genero/<%= bandasPorId.genero %>"> <%= bandasPorId.genero %> </a></li>
+            <li><%= bandasPorId.topCanciones %> </li>
+            <li><%= bandasPorId.cover %> </li>
+            <li><%= bandasPorId.video %> </li>
+
+           
+    </ul>
+</body>
+</html>
